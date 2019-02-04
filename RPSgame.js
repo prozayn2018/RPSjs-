@@ -3,6 +3,17 @@
 // Make comments on function in the future for read-ability
 
 
+const container = document.querySelector('#container');
+
+// create div on html
+
+const content = document.createElement('div');
+content.id = 'content';
+content.textContent = 'Wake up Zayne';
+container.appendChild(content);
+
+
+
 function playround() {
 
   userPoints = 0
@@ -79,5 +90,17 @@ function rando() {
 }
 
 playround()
+
+
+// DOM link between JS and HTML
+
+
+
+
+//const button = document.querySelector('btn');
+//btn.addEventListener('click', function(){
+  //  document.getElementById('para').innerHTML = "Wazzup";
+//})
+//container.apendChild(button)
 
 ///////////////////
